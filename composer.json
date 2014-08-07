@@ -1,0 +1,22 @@
+{
+    "name": "jildertmiedema/windows-phone-push",
+    "description": "Windows Phone Push",
+    "keywords": ["Windows Phone Push", "Windows", "phone", "push"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jildert Miedema",
+            "email": "jildertmiedema@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "JildertMiedema\\WindowsPhone\\": "src/"
+        }
+    }
+}
